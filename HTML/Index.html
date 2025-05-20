@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../CSS/style-css.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Circle Logo Image -->
+    <div class="logo-container">
+      <img src="../UTILS/LOGO.jpg" alt="Logo" class="logo-image" />
+    </div>
+
+    <h2>Create Your Account</h2>
+    <p>Enter your details to get started</p>
+
+    <form id="signupForm">
+      <div class="form-group">
+        <div class="input-container">
+          <i class='bx bx-user'></i>
+          <input type="text" id="name" name="name" placeholder="Full Name" required>
+        </div>
+        <div class="error" id="nameError"></div>
+      </div>
+      <div class="form-group">
+        <div class="input-container">
+          <i class='bx bx-envelope'></i>
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="error" id="emailError"></div>
+      </div>
+      <div class="form-group">
+        <div class="input-container">
+          <i class='bx bx-phone'></i>
+          <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+        </div>
+        <div class="error" id="phoneError"></div>
+      </div>
+      <button type="submit" class="submit-btn">SIGN UP</button>
+    </form>
+
+    <p class="terms">
+      By signing up, you agree to our 
+      <a href="#">Terms of Service</a> and 
+      <a href="#">Privacy Policy</a>
+    </p>
+  </div>
+
+  <script src="../JAVASCRIPT/JavaScript.js"></script>
+</body>
+</html>

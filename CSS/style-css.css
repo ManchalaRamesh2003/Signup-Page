@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f9ff, #e6f0fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Signup Card */
+.container {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 50px 40px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Circular Logo Image */
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Header */
+h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+/* Input Field */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container i {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 14px 14px 14px 44px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.input-container input:focus {
+  border-color: #1a57e6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(26, 87, 230, 0.2);
+}
+
+/* Error message */
+.error {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 6px;
+  text-align: left;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #1a57e6, #367cf9);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+.submit-btn:active {
+  transform: translateY(1px);
+}
+
+/* Terms */
+.terms {
+  font-size: 12px;
+  color: #6c757d;
+  margin-top: 20px;
+}
+
+.terms a {
+  color: #1a57e6;
+  text-decoration: none;
+}
